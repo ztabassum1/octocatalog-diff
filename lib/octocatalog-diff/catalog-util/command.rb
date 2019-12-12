@@ -56,7 +56,7 @@ module OctocatalogDiff
 
         # Node to compile
         cmdline = []
-        cmdline.concat ['master', '--compile', Shellwords.escape(@node)]
+        cmdline.concat ['catalog', 'compile', Shellwords.escape(@node)]
 
         # storeconfigs?
         if @options[:storeconfigs]
@@ -95,7 +95,6 @@ module OctocatalogDiff
           --no-daemonize
           --no-ca
           --color=false
-          --config_version="/bin/echo catalogscript"
         )
 
         # Add environment - only make this variable if preserve_environments is used.
