@@ -95,7 +95,7 @@ module OctocatalogDiff
           --no-daemonize
           --no-ca
           --color=false
-          --disable_warnings= deprecations, undefined_variables, undefined_resources
+          --disable_warnings=deprecations,undefined_variables,undefined_resources
         )
 
         # Add environment - only make this variable if preserve_environments is used.
