@@ -95,6 +95,7 @@ module OctocatalogDiff
           --no-daemonize
           --no-ca
           --color=false
+          --strict=off
           --disable_warnings=deprecations,undefined_variables,undefined_resources
         )
 
